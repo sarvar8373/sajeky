@@ -1,0 +1,11 @@
+<nav id="navbar">
+        <div class="navb">
+            <ul id="navbar-menu" class="navbar-nav bd-navbar-nav flex-row">
+                {% for item in site.data.navigation %}
+                    <li class="nav-item">
+                        <a class="nav-link" {% if page.url == item.link %}active{% endif %} href="{{ item.link }}" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">{{ item.name }}</a>
+                    </li>
+                {% endfor %}
+          </ul>
+        </div>
+        </nav>

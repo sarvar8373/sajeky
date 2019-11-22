@@ -1,0 +1,15 @@
+.current { color: green; }
+
+body { width: 100%; background-color: yellow; }
+
+#navbar { background-color: dimgray; }
+
+.nav-link { text-decoration: none; color: white; }
+
+#navbar-menu { list-style: none; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; align-content: center; margin-top: -8px; margin-bottom: 20px; padding: 15px; }
+
+body { width: 100%; background-color: gold; position: sticky; margin-left: 0; }
+
+.text { color: white; font-size: 50px; }
+
+/*# sourceMappingURL=style.css.map */

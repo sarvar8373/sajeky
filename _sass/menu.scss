@@ -1,0 +1,23 @@
+#navbar{
+    background-color: dimgray;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+   
+  
+
+}
+#navbar-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: -8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    
+}
+

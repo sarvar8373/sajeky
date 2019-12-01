@@ -1,8 +1,10 @@
 - name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Documents
-  link: /documents.html
-- name: My portfolio
-  link: /myportfolio.html
+  link: index.html
+- name: Shop
+  link: about.html
+- name: Blog
+  link: documents.html
+- name: Pages
+  link: myportfolio.html
+- name: Contacts
+  link: myportfolio.html

@@ -2,11 +2,27 @@
 
 body { width: 100%; background-color: yellow; }
 
-#navbar { background-color: dimgray; }
+#navbar { background-color: black; }
 
-.nav-link { text-decoration: none; color: white; }
+.nav1 { display: flex; flex-direction: row; justify-content: space-between; align-items: center; background-color: #0b0b69; position: relative; top: -7px; }
 
-#navbar-menu { list-style: none; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; align-content: center; margin-top: -8px; margin-bottom: 20px; padding: 15px; }
+.adres { display: flex; flex-direction: row; }
+
+.adres1 { padding-right: 20px; }
+
+.icons { display: flex; flex-direction: row; align-items: center; text-decoration: none; color: whitesmoke; padding-left: 20px; padding-right: 20px; }
+
+.icons1 { text-decoration: none; }
+
+.nav-link { text-decoration: none; color: black; }
+
+.nav-link:hover { color: gray; }
+
+#navbar-menu { list-style: none; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; align-items: center; margin-top: -8px; margin-bottom: 20px; padding: 40px; background-color: white; }
+
+.button1 { text-decoration: none; padding: 13px 32px; border: 1px solid black; border-radius: 38px; color: black; }
+
+.button1:hover { background-color: lightskyblue; color: white; border: 0px; }
 
 body { width: 100%; background-color: gold; position: sticky; margin-left: 0; }
 

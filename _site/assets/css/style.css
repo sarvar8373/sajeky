@@ -24,8 +24,12 @@ body { width: 100%; background-color: yellow; }
 
 .button1:hover { background-color: lightskyblue; color: white; border: 0px; }
 
-body { width: 100%; background-color: gold; position: sticky; margin-left: 0; }
+body { width: 100%; background-color: white; position: sticky; margin-left: 0; }
 
-.text { color: white; font-size: 50px; }
+.pictures { display: flex; flex-direction: row; justify-content: space-around; align-items: center; background-image: radial-gradient(#349de2, #2c4bd6); position: relative; top: -20px; }
+
+.pictures1 { position: relative; top: 60px; }
+
+.button2 { text-decoration: none; color: white; font-size: 18px; background-color: lightskyblue; padding: 14px 32px; border-radius: 38px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,27 @@
 body{
         width: 100%;
-        background-color: gold;
+        background-color: white;
         position: sticky;
         margin-left:0;
   }
-  .text{
+.pictures{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background-image: radial-gradient(rgb(52, 157, 226), rgb(44, 75, 214));
+      position: relative;
+      top:-20px;
+  }
+  .pictures1{
+      position: relative;
+      top:60px;
+  }
+  .button2{
+      text-decoration: none;
       color: white;
-      font-size: 50px;
+      font-size: 18px;
+      background-color: lightskyblue;
+      padding: 14px 32px;
+      border-radius: 38px;
   }

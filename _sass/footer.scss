@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: rgb(13, 98, 138);
 }
 .footer1{
@@ -25,4 +26,17 @@
     color:whitesmoke;
     text-align: center;
     font-size: 15px;
+    padding: 10px;
+}
+@media only screen and (max-width:800px){
+        .conteiner2{
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer1{
+            font-size: 30px;
+        }
+        .footer3{
+            font-size: 25px;
+        }
 }

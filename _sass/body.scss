@@ -1,8 +1,9 @@
 body{
-        width: 100%;
         background-color: white;
-        position: sticky;
-        margin-left:0;
+  }
+  *,::after,::before{
+      box-sizing: border-box;
+      margin: 0;
   }
 .pictures{
       display: flex;
@@ -15,7 +16,7 @@ body{
   }
   .pictures1{
       position: relative;
-      top:60px;
+      top:30px;
   }
   .button2{
       text-decoration: none;
@@ -24,11 +25,13 @@ body{
       background-color: lightskyblue;
       padding: 14px 32px;
       border-radius: 38px;
+      line-height: 100px;
   }
   .pictures2{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      flex-wrap:wrap;
       position: relative;
       margin-top:50px;
   }
@@ -38,10 +41,21 @@ body{
   .picture3:hover{
       border:1px solid black;
   }
+  .p3{
+    font-size:30px;
+  }
+  .p4{
+    font-size:50px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .p5{
+    letter-spacing: 1px;
+  }
   .conteiner{
       display: flex;
       flex-flow: row;
       justify-content: space-around;
+      flex-wrap: wrap;
       position: relative;
       margin-bottom: 55px;
   }
@@ -79,3 +93,35 @@ body{
     border-top:3px solid blue; 
     line-height:35px;padding: 20px;
   }
+  @media only screen and (max-width:800px){ 
+      .pictures1,.picture3, .picture4{
+          text-align: center;
+          width: 100%;
+          height: auto;
+      }
+      .p3,.p4{
+          position: relative;
+          top: 20px;
+          font-size: 15px;
+      }
+      .p5{
+          font-size: 10px;
+          letter-spacing: none;
+      }
+      .p6{
+          display: none;
+      }
+      .buttons{
+          display: none;
+      }
+      .button2{
+          padding: 7px 10px;
+          font-size: 12px;
+          line-height: 50px;
+      }
+      .pictures1{
+          position: relative;
+          top:15px;
+      }
+  
+}

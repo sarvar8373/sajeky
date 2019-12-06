@@ -3,7 +3,7 @@
             <div class="nav1">
                 <div class="adres">
                      <a class="icons" href="#">
-                        <img src="assets\images\phone.png" width="14" height="12">
+                    <img src="assets\images\phone.png" width="14" height="12">
                         <p style="font-size: 12px; padding:0px 5px;">+998-(99)-896-83-73</p>
                     </a>
                     <a class="icons" href="#">
@@ -28,11 +28,15 @@
                 <a href="#">
                     <img src="assets\images\logo.png" width="230" height="37">
                 </a>
-                {% for item in site.data.navigation %}
+                <label for="toggle" >&#9776</label>
+                <input type="checkbox" id="toggle"/>
                     <li class="nav-item">
-                        <a class="nav-link" {% if page.url == item.link %}active style="color: gray;" {% endif %} href="{{ item.link }}" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">{{ item.name }}</a>
+                        <a href="#"class="nav-link">Home</a>
+                        <a href="#"class="nav-link">Shop</a>
+                        <a href="#"class="nav-link">Blog</a>
+                        <a href="#"class="nav-link">Pages</a>
+                        <a href="#"class="nav-link">Contacts</a>
                     </li>
-                {% endfor %}
                 <a class="icon2" href="#" style="text-decoration: none; letter-spacing: 20px;">
                     <img src="assets\images\search.png" width="20" height="20">
                     <img src="assets\images\profile.png" width="20" height="20">

@@ -101,9 +101,11 @@ label{
          display: flex;
          flex-direction: column;
          position: absolute;
+         left:0;
+         right:0;
          background-color: white;
          z-index: 1096;
-         top: 150px;
+         top: 200px;
     }
     .nav1{
         justify-content: space-around;

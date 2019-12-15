@@ -17,6 +17,7 @@
     flex-wrap:wrap;
 }
 .adres1{
+    text-align: center;
     padding-right: 20px;
 }
 .icons{
@@ -99,9 +100,12 @@ label{
     #toggle:checked + .nav-item{
          display: flex;
          flex-direction: column;
+         position: absolute;
+         background-color: white;
+         z-index: 1096;
+         top: 150px;
     }
     .nav1{
-        justify-content: space-around;
         line-height: 30px;
     }
     .icons{

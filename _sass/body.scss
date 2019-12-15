@@ -113,6 +113,9 @@ body{
     border-top:3px solid blue; 
     line-height:35px;padding: 20px;
   }
+  .text-2{
+    padding: 60px;
+  }
   @media only screen and (max-width:800px){ 
       .pictures1,.picture4{
           text-align: center;
@@ -142,6 +145,10 @@ body{
       .p8{
           font-size: 15px;
       }
+      .picture4{
+        width: 50%;
+        height: auto;
+    }
       .buttons{
           font-size: 10px;
           padding: 15px 25px;
@@ -169,6 +176,10 @@ body{
           margin-right:0px;
             
       }
+      .text-2{
+        padding:50px 0;
+      }
+      
     }
     @media only screen and (max-width:480px){
         .pictures2{
@@ -178,6 +189,7 @@ body{
             width: 100%;
             height:auto;
         } 
+        
         .p3, .p4{
             font-size: 20px;
         }

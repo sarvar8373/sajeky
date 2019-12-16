@@ -105,7 +105,7 @@ label{
          right:0;
          background-color: white;
          z-index: 1096;
-         top: 200px;
+         top: 160px;
     }
     .nav1{
         justify-content: space-around;
@@ -114,4 +114,16 @@ label{
     .icons{
         padding: 0;
     }
+}
+@media only screen and (max-width:340px){
+    #toggle:checked + .nav-item{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left:0;
+        right:0;
+        background-color: white;
+        z-index: 1096;
+        top: 200px;
+   }
 }

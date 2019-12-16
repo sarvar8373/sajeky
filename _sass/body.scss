@@ -44,6 +44,10 @@ body{
   .picture3:hover{
       border:1px solid black;
   }
+  .picture4{
+    width:580px; 
+    height:350px;
+  }
   .p3{
     color: white;
     font-size:30px;
@@ -59,7 +63,6 @@ body{
   }
   .p6{
     color: white; 
-    letter-spacing: 1px; 
     text-align: center;
   }
   .p7{
@@ -102,7 +105,7 @@ body{
   .column1{
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: center;
   }
   .text{
@@ -145,10 +148,7 @@ body{
       .p8{
           font-size: 15px;
       }
-      .picture4{
-        width: 50%;
-        height: auto;
-    }
+      
       .buttons{
           font-size: 10px;
           padding: 15px 25px;
@@ -167,8 +167,8 @@ body{
           top:15px;
       }
       .picture4{
-        width: 45%;
-        height: auto;
+        width: 50%;
+        height: 200px;
       }
       .text{
           text-align: left;
@@ -177,7 +177,7 @@ body{
             
       }
       .text-2{
-        padding:50px 0;
+        padding:50px 10px;
       }
       
     }
@@ -205,6 +205,12 @@ body{
         .p9{
             font-size: 11px;
         }
+        .buttons{
+            font-size: 10px;
+            padding: 7px 10px;
+            position: relative;
+            top:-30px;
+        }
     }
       @media only screen and (max-width:385px){
         .p3, .p4{
@@ -219,5 +225,9 @@ body{
         .p8{
             font-size: 10px;
         }
+        .picture4{
+            width: 60%;
+            height: 170px;
+          }
   
     }
